@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074913841637",
+    "project_id": "becarefulbang",
+    "storage_bucket": "becarefulbang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074913841637:android:1f7c039c13c714b2c41f0c",
+        "android_client_info": {
+          "package_name": "com.hwkim.becarefulbang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074913841637-jkjagt43l4bi85p4oh5o7fu91jkoo98t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD618ytXSt8Plokyfz32KoRcqEo4UhYXBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074913841637-jkjagt43l4bi85p4oh5o7fu91jkoo98t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

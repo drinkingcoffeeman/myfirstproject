@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment3">
+
+    <fragment
+        android:id="@+id/homeFragment3"
+        android:name="com.hwkim.becarefulbang.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment3_to_talkFragment2"
+            app:destination="@id/talkFragment2" />
+        <action
+            android:id="@+id/action_homeFragment3_to_tipFragment2"
+            app:destination="@id/tipFragment2" />
+        <action
+            android:id="@+id/action_homeFragment3_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment2"
+        android:name="com.hwkim.becarefulbang.fragments.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_talkFragment2"
+            app:destination="@id/talkFragment2" />
+        <action
+            android:id="@+id/action_bookmarkFragment2_to_tipFragment2"
+            app:destination="@id/tipFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/talkFragment2"
+        android:name="com.hwkim.becarefulbang.fragments.TalkFragment"
+        android:label="fragment_talk"
+        tools:layout="@layout/fragment_talk" >
+        <action
+            android:id="@+id/action_talkFragment2_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_talkFragment2_to_tipFragment2"
+            app:destination="@id/tipFragment2" />
+        <action
+            android:id="@+id/action_talkFragment2_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tipFragment2"
+        android:name="com.hwkim.becarefulbang.fragments.TipFragment"
+        android:label="fragment_tip"
+        tools:layout="@layout/fragment_tip" >
+        <action
+            android:id="@+id/action_tipFragment2_to_talkFragment2"
+            app:destination="@id/talkFragment2" />
+        <action
+            android:id="@+id/action_tipFragment2_to_homeFragment3"
+            app:destination="@id/homeFragment3" />
+        <action
+            android:id="@+id/action_tipFragment2_to_bookmarkFragment2"
+            app:destination="@id/bookmarkFragment2" />
+    </fragment>
+</navigation>
